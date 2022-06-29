@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/button_play.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/cube_1.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/cube_2.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/cube_3.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/easy_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/home_btn.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/menu_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/my_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/next_lvl_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/select_lvl_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/drawable/sound_btn.xml" value="0.179" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/about_developers_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_easy_lvl.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_easy_select_level.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_medium_lvl.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_select_difficulty.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/activity_select_level.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/last_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/lose_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/medium_question_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/question_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/restart_layout.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/layout/win_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/RainbowKeyboard/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.179" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

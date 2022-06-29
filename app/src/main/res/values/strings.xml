@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rainbow Keyboard</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="select_difficulty">SELECT DIFFICULTY</string>
+    <string name="click_again_to_exit">Click again to exit</string>
+    <string name="share_txt">Hey check out this Great app:Rainbow Keyboard</string>
+    <string name="level">LEVEL</string>
+    <string name="menu">Menu</string>
+    <string name="are_you_sure_to_restart">Are you sure to restart?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="failure">FAILURE</string>
+    <string name="victory">VICTORY!</string>
+    <string name="about_developers">About developers</string>
+    <string name="code">Code:</string>
+    <string name="design">Design:</string>
+    <string name="rules">Rules</string>
+    <string name="text_rules">To pass to the next level,\n you have to collect this figure.\n When you click on a cube,\n its color changes,\n as well as adjacent cubes.\n GoodLuck!</string>
+</resources>

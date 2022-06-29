@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/rectangle">
+    <TextView
+        android:id="@+id/rules"
+        style="@style/mainTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/text_rules"
+        style="@style/mainTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_rules"
+        android:textColor="@color/black70"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/rules"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_rules"
+        tools:ignore="UnknownIdInLayout">
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/question_button1"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button2"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button3"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/question_button4"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button5"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button6"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/question_button7"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button8"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+
+            <Button
+                android:id="@+id/question_button9"
+                style="@style/mainButtonStyle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/cube_1" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

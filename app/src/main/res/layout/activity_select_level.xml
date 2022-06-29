@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/choose_lvl_background">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/choose_lvl_hat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/select_easy_lvl_back"
+            style="@style/mainButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            app:icon="@mipmap/btn_back"
+            app:iconSize="30dp"
+            app:iconTint="@color/main_text_color"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="5dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/difficulty_txt"
+            style="@style/mainTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/easy"
+            android:textSize="28sp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|start"
+            android:layout_marginEnd="150dp"
+            android:text="1"
+            android:background="@drawable/select_lvl_btn" />
+
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|end"
+            android:text="2"
+            android:background="@drawable/select_lvl_btn" />
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|start"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="150dp"
+            android:text="3"
+            android:background="@drawable/select_lvl_btn" />
+
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="150dp"
+            android:text="4"
+            android:background="@drawable/select_lvl_btn" />
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|start"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="300dp"
+            android:text="5"
+            android:background="@drawable/select_lvl_btn" />
+
+        <Button
+            style="@style/levelNumberBtnStyle"
+            android:id="@+id/easy_lvl_6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="300dp"
+            android:text="6"
+            android:background="@drawable/select_lvl_btn" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
